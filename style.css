@@ -1,0 +1,184 @@
+@font-face {
+  font-family: trench;
+  src: url(fonts/trench100free.otf);
+}
+@font-face {
+  font-family: "GlOrY";
+  src: url("http://www.myfontfree.com/data/54/g/glory/GLORY-R.TTF");
+}
+.navbar-default {
+  background: darkslategray;
+  background: -webkit-linear-gradient(right, darkslategray, slategray);
+  border-color: gray;
+  border-radius: 0em;
+}
+.navbar-default .navbar-brand {
+  color: white;
+  font-family: GlOrY, Graffiti, Arial, Helvetica, sans-serif;
+  font-size: 3.2em;
+}
+.navbar-default .navbar-nav li a {
+  color: white;
+  letter-spacing: 0.1em;
+}
+.navbar-default .navbar-nav li a:hover {
+  color: lightgray;
+}
+.navbar-default .navbar-header {
+  color: white;
+}
+.navbar-default button {
+  border: none;
+}
+.About {
+  text-align: center;
+  background: lightgray;
+  background: -webkit-radial-gradient(white, white, darkgray);
+  padding-top: 5em;
+  margin-top: -1.5em;
+  padding-bottom: 16em;
+}
+.About h2 {
+  letter-spacing: 1em;
+  text-align: center;
+}
+.About span {
+  font-size: 6em;
+  margin-top: 0.5em;
+}
+.About p {
+  margin-top: 1em;
+}
+.Skills {
+  text-align: center;
+  padding-bottom: 2.5em;
+}
+.Skills div {
+  display: inline-block;
+}
+.Skills h2 {
+  letter-spacing: 0.5em;
+  margin-bottom: 0.8em;
+  text-align: center;
+}
+.Skills img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13em;
+  margin-bottom: 2.5em;
+}
+.Skills h3 {
+  display: inline-block;
+}
+.Skills h3 p {
+  font-size: 1em;
+}
+.Skills .Img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 39em;
+  -webkit-transform: rotateX(5deg);
+  transform: rotateX(89.5deg);
+  transition: transform 2s;
+}
+.Skills .Img.up {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+.Skills .Img #img-4 {
+  width: 14em;
+  height: 14em;
+}
+.Skills .Img #img-3 {
+  width: 12em;
+  height: 12em;
+}
+.Skills .Img #img-5 {
+  height: 12em;
+  width: 12em;
+}
+.Skills .Skillz {
+  font-family: trench;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+.Skills .Skillz .para {
+  font-size: 0.5em;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 4em;
+}
+.Education {
+  height: 54em;
+  background-color: lightgray;
+  text-align: center;
+}
+.Education span {
+  font-size: 10em;
+  margin-bottom: 0.5em;
+}
+.Education h2 {
+  letter-spacing: 0.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.Education .Edu {
+  font-size: 2em;
+  letter-spacing: 0.1em;
+}
+.Education .Edu p {
+  font-size: 0.6em;
+  text-align: center;
+  margin-top: 1em;
+}
+.Contact {
+  height: 43em;
+  text-align: center;
+}
+.Contact h2 {
+  letter-spacing: 0.5em;
+  margin-bottom: 3em;
+}
+.Contact #form {
+  height: 24em;
+  background-color: lightgray;
+  border: 0.1em solid gray;
+}
+.Contact #form input {
+  display: block;
+  text-align: left;
+  margin-top: 2em;
+  border: 0.1em solid gray;
+  background-color: white;
+}
+.Contact #form textarea {
+  display: block;
+  text-align: left;
+  margin-top: 2em;
+  border: 0.1em solid gray;
+  margin-bottom: 0.2em;
+}
+.footer {
+  height: 11em;
+  background: darkslategray;
+  background: -webkit-linear-gradient(left, darkslategray, slategray);
+  border-top: 0.5em solid lightgray;
+  text-align: center;
+}
+.footer img {
+  text-align: center;
+  margin-top: 1em;
+  margin-right: 1.5em;
+}
+.footer p {
+  color: lightgray;
+  margin-top: 2.5em;
+}
+.footer span {
+  font-size: 2em;
+  color: lightgray;
+}
