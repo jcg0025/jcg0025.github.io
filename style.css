@@ -11,7 +11,7 @@
   background: -webkit-linear-gradient(right, darkslategray, slategray);
   border-color: gray;
   border-radius: 0em;
-  width: 101.2%;
+  width: 100%;
 }
 .navbar-default .navbar-brand {
   color: white;
@@ -40,6 +40,7 @@
   padding-top: 5em;
   margin-top: -1.5em;
   padding-bottom: 16em;
+  width: 98.9%;
 }
 .About h2 {
   letter-spacing: 1em;
@@ -55,6 +56,7 @@
 .Skills {
   text-align: center;
   padding-bottom: 2.5em;
+  width: 98.9%
 }
 .Skills div {
   display: inline-block;
@@ -119,6 +121,7 @@
   height: 54em;
   background-color: lightgray;
   text-align: center;
+  width: 98.9%;
 }
 .Education span {
   font-size: 10em;
@@ -141,6 +144,7 @@
 .Contact {
   height: 43em;
   text-align: center;
+  width: 98.8%;
 }
 .Contact h2 {
   letter-spacing: 0.5em;
@@ -171,6 +175,7 @@
   background: -webkit-linear-gradient(left, darkslategray, slategray);
   border-top: 0.5em solid lightgray;
   text-align: center;
+  width: 98.9%;
 }
 .footer img {
   text-align: center;
