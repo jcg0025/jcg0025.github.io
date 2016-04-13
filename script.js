@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
      $(window).scroll(function() {
-        if ($(this).scrollTop() > 0 && $(this).scrollTop() < 2) {
+        if ($(this).scrollTop() > 1 && $(this).scrollTop() < 2) {
             $('#bounce-icon').effect('bounce', {times: 5}, 2000);
         }
     });
