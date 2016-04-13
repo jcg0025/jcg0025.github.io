@@ -11,6 +11,7 @@
   background: -webkit-linear-gradient(right, darkslategray, slategray);
   border-color: gray;
   border-radius: 0em;
+  width: 101.5%;
 }
 .navbar-default .navbar-brand {
   color: white;
@@ -20,6 +21,8 @@
 .navbar-default .navbar-nav li a {
   color: white;
   letter-spacing: 0.1em;
+  padding-right: 1.5em;
+
 }
 .navbar-default .navbar-nav li a:hover {
   color: lightgray;
