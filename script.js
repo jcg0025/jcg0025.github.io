@@ -1,10 +1,10 @@
 $(document).ready(function(){
     
-     $(window).scroll(function() {
-        if ($(this).scrollTop() ===1) {
+    //  $(window).scroll(function() {
+    //     if ($(this).scrollTop() ===1) {
             $('#bounce-icon').effect('bounce', {times: 5}, 2000);
-        }
-    });
+    //     }
+    // });
       
     $(window).scroll(function() {
         var scroll_top =$(this).scrollTop();
