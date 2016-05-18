@@ -141,7 +141,27 @@
   text-align: center;
   margin-top: 1em;
 }
-.Contact {
+.Experience {
+  width: 98.8%;
+  text-align: center;
+}
+.Experience h2 {
+  letter-spacing: 0.5em;
+  margin-bottom: 1em;
+}
+#booton {
+  background-color: darkgray;
+  width: 12em;
+  color: white;
+  height: 3em;
+  letter-spacing: 0.3em;
+  border: none;
+  border-radius: 50%;
+}
+#booton:hover {
+  background-color: darkslategray;
+}
+/*.Contact {
   height: 43em;
   text-align: center;
   width: 98.8%;
@@ -168,7 +188,7 @@
   margin-top: 2em;
   border: 0.1em solid gray;
   margin-bottom: 0.2em;
-}
+}*/
 .footer {
   height: 11em;
   background: darkslategray;
@@ -189,4 +209,27 @@
 .footer span {
   font-size: 2em;
   color: lightgray;
+}
+
+@media screen and (max-width: 400px) {
+  .Skills .Skillz .para {
+    text-align: center;
+    margin-left: 0px !important;
+  }
+  .Skills .Img {
+    display: none !important;
+  }
+  .Education {
+    height: 62em !important;
+  }
+  .Education .Edu {
+    margin-top: -1em !important;
+    margin-bottom: 2em !important;
+  }
+  .Contact h2 {
+    margin-bottom: 1em !important;
+  }
+  .About h2 {
+    font-size: 1.1em !important;
+  }
 }
