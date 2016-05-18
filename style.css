@@ -161,6 +161,22 @@
 #booton:hover {
   background-color: darkslategray;
 }
+.resume {
+  text-align: center;
+  background-color: darkgray;
+  padding-bottom: 2em;
+}
+.resume h2 {
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+#resume {
+  margin-top: 4em;
+  letter-spacing: 0.5em;
+}
+#object {
+  margin-bottom: 5em;
+}
 /*.Contact {
   height: 43em;
   text-align: center;
