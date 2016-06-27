@@ -4,7 +4,7 @@ $(document).ready(function(){
         $('#bounce-icon').effect('bounce', {times: 5}, 2000);
     }
 
-    setTimeout(bounce, 500);
+    setTimeout(bounce, 700);
 
     $('#bounce-icon').click(function() {
         bounce();
