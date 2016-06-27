@@ -1,10 +1,15 @@
 $(document).ready(function(){
     
-     $(window).scroll(function() {
-        if ($(this).scrollTop() === 3) {
-            $('#bounce-icon').effect('bounce', {times: 5}, 2000);
-        }
+    var bounce = function(){
+        $('#bounce-icon').effect('bounce', {times: 5}, 2000);
+    }
+
+    setTimeout(bounce, 500);
+
+    $('#bounce-icon').click(function() {
+        bounce();
     });
+  
       
     $(window).scroll(function() {
         var scroll_top =$(this).scrollTop();
