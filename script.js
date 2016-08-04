@@ -12,7 +12,7 @@ $(document).ready(function(){
              target.css('height', '1px');
              target.removeClass('in');
         } else {
-            console.log('closed');
+            return false;
         }
    });
   

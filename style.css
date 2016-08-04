@@ -58,6 +58,7 @@ a.navbar-brand:hover {
   margin-top: -1.5em;
   padding-bottom: 16em;
   width: 98.9%;
+  font-size: 1.2em;
 }
 .About h2 {
   letter-spacing: 1em;
@@ -161,6 +162,7 @@ a.navbar-brand:hover {
 .Experience {
   width: 98.8%;
   text-align: center;
+  height: 34em;
 }
 .Experience h2 {
   letter-spacing: 0.5em;
@@ -203,18 +205,25 @@ p#tms:hover {
 
 #booton {
   /*background-color: darkgray;*/
-  width: 12em;
-  height: 3em;
+  width: 14em;
+  height: 5em;
+  font-size: 1.2em;
   letter-spacing: 0.3em;
   border: none;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
+  color: white;
+  transition: background 0.5s linear;
+}
+#booton:hover {
+  background: #393d39;
 }
 
 
 .resume {
   text-align: center;
   background-color: darkgray;
-  padding-bottom: 2em;
+  padding-bottom: 6em;
+  
 }
 .resume h2 {
   padding-top: 1em;
@@ -231,6 +240,11 @@ p#tms:hover {
   font-size: 1.5em;
 }
 
+.glyphicon-download {
+  font-size: 1.8em;
+}
+
+
 #button {
   background: transparent !important;
 }
@@ -239,6 +253,7 @@ p#tms:hover {
   color: #ffbd0b;
   background: transparent;
 }
+
 /*.Contact {
   height: 43em;
   text-align: center;
@@ -310,11 +325,21 @@ p#tms:hover {
   .About h2 {
     font-size: 1.1em !important;
   }
+ 
 }
 
 @media screen and (max-width: 650px) {
   #object {
     display: none;
+  }
+  #budgeyContainer:hover {
+    background: white;
+  }
+  p#tms:hover {
+    background: white;
+  }
+  #resDownload {
+    font-size: 1.2em;
   }
 }
 
@@ -322,13 +347,8 @@ p#tms:hover {
   cursor: pointer;
 }
 
-#back:hover {
-    border: 2px solid black;
-    padding-top: 1em;
-    padding-right: 0.3em;
-    padding-left: 0.5em;
-    border-radius: 50%;
-    background-color: black;
+#form {
+  margin-top: 10em;
 }
 
 
