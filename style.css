@@ -104,11 +104,11 @@ a.navbar-brand:hover {
   width: 39em;
   -webkit-transform: rotateX(5deg);
   transform: rotateX(89.5deg);
-  transition: transform 2s;
+  transition: transform 1s;
 }
 .Skills .Img.up {
-  -webkit-transform: rotateX(360deg);
-  transform: rotateX(360deg);
+  -webkit-transform: rotateX(-15deg);
+  transform: rotateX(-15deg);
 }
 .Skills .Img #img-4 {
   width: 14em;
@@ -170,13 +170,15 @@ a.navbar-brand:hover {
 }
 
 #budgeyContainer{
-  transition: margin-left 0.2s ease-out, margin-right 0.2s ease-out;
+  background: white;
+  transition: margin-left 0.2s ease-out, margin-right 0.2s ease-out, background 0.2s ease-out;
   border-radius: 3em;
 }
 
 #budgeyContainer:hover{
    margin: 0 20% 0 20% !important;
-   background: #e8e8ea;
+   /*background: #e8e8ea;*/
+   background: lightslategray;
 }
 
 #budgey {
@@ -194,11 +196,12 @@ a.navbar-brand:hover {
 }
 
 p#tms {
-  transition: margin-left 0.2s ease-out, margin-right 0.2s ease-out;
+  transition: margin-left 0.2s ease-out, margin-right 0.2s ease-out, background 0.2s ease-out;
   border-radius: 1.5em;;
 }
 p#tms:hover {
-  background: #e8e8ea;
+  /*background: #e8e8ea;*/
+  background: lightslategray;
   text-decoration: none;
   margin: 0 20% 0 20% !important;
 }
