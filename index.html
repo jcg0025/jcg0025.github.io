@@ -23,9 +23,9 @@
 <body>
      <nav class='navbar navbar-default navbar-custom' role='navigation'>
              <div id='top' class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#target" aria-expanded="false">
+                <button id='button' type="button" class="navbar-toggle" data-toggle="collapse" data-target="#target" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    <span id='hamburger' class="glyphicon glyphicon-menu-hamburger"></span>
                 </button> 
                 <a class="navbar-brand" href="#">JG</a>
              </div>
@@ -46,7 +46,7 @@
          <h2>&ltGOSSETT></h2>
          <span id='bounce-icon' class='glyphicon glyphicon-info-sign' aria-hidden="true"></span>
          <p id='about'>About Me</p>
-         <p class='col-xs-8 col-xs-offset-2'>I am a software developer from Birmingham, AL with a focus on front-end software engineering. I believe the only limit to what can be achieved through programming is human imagination and creativity. I love working with new technologies and pick them up quick. I am highly self-motivated and thrive under pressure. I am always learning and looking for new projects.</p>
+         <p class='col-xs-8 col-xs-offset-2'>I am a software developer from Birmingham, AL. I love outdoor sports, hanging out with friends, playing guitar, video games, and legos. Computers are awesome because the only limit to what can be achieved through technology is human imagination, creativity, and ingenuity. I am highly self-motivated and thrive under pressure. I am always learning new languages/frameworks and I pick them up quickly. </p>
      </div>
      </div>
     <div class="row">
@@ -100,9 +100,9 @@
                 <P>Graduated: 2015</P>
             </div>
             <div class='Edu col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1'>Technical Education
-                <p>Depot/U</p>
+                <p><a href="http://depotu.io">Depot/U</p></a>
                 <p>Developer Bootcamp</p>
-                <p>Created by Platypi</P>
+                <p>Created by: Platypi, Innovation Depot, and The University of Alabama at Birmingham</P>
                 <p>Front End Engineer Certification</p>
             </div>
         </div>
@@ -113,10 +113,13 @@
             <h2 id='exp'>EXPERIENCE</h3>
             <div class="Exp">
                 <h4>Magic City Coders</h4>
-                <p><a href="http://magiccitycoders.sngular.team/mybudgey">My Budgey</a> - built with Polymer</p>
+                <div id='budgeyContainer'>
+                <a href="http://magiccitycoders.sngular.team/mybudgey"><img src="images/Budgey_500.png" alt="My Budgey" id='budgey'></a>
+                </div>
+                <br>
                 <br>
                 <h4>Depot/U Collaboration</h4>
-                <p><a href="https://thatsmysong.firebaseapp.com/">That's My Song</a> - built with PlatypusTS</p>
+                <a href="https://thatsmysong.firebaseapp.com/"><p id='tms'>That's My Song</p></a>
             </div>
             <!--<br><br><br>-->
             <!--<form action="MAILTO:jgossett121@gmail.com" method='post' enctype="text/plain">
@@ -130,6 +133,11 @@
             <h2 id='resume'>RESUME</h2>
             <object id='object' data="jgoss.pdf" type="application/pdf" width="80%" height="70%">
             </object>
+            <p id='resDownload'><a href="jgoss.docx" target='_blank' title="Click here to open a Word document">
+                Resume Download (jgoss.docx) <span class='glyphicon glyphicon-download'></span>
+            </p>
+            <br>
+            <br>
             <form action="MAILTO:jgossett121@gmail.com" method='post' enctype="text/plain">
                 <input id='booton' type='submit' value='CONTACT ME'>
             </form>

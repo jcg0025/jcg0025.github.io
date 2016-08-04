@@ -2,10 +2,23 @@
   font-family: trench;
   src: url(fonts/trench100free.otf);
 }
-@font-face {
+/*@font-face {
   font-family: "GlOrY";
   src: url("http://www.myfontfree.com/data/54/g/glory/GLORY-R.TTF");
+}*/
+a:hover {
+  text-decoration: none !important;
 }
+@font-face{
+  font-family: slab;
+  src: url(fonts/slab.otf);
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .navbar-default {
   background: darkslategray;
   background: -webkit-linear-gradient(right, darkslategray, slategray);
@@ -18,6 +31,10 @@
   font-family: GlOrY, Graffiti, Arial, Helvetica, sans-serif;
   font-size: 3.2em;
 }
+
+a.navbar-brand:hover {
+  color: #ffbd0b !important;
+}
 .navbar-default .navbar-nav li a {
   color: white;
   letter-spacing: 0.1em;
@@ -25,7 +42,7 @@
 
 }
 .navbar-default .navbar-nav li a:hover {
-  color: #3c3c3c;
+  color: #ffbd0b;
 }
 .navbar-default .navbar-header {
   color: white;
@@ -149,18 +166,51 @@
   letter-spacing: 0.5em;
   margin-bottom: 1em;
 }
+
+#budgeyContainer{
+  transition: margin-left 0.2s ease-out, margin-right 0.2s ease-out;
+  border-radius: 3em;
+}
+
+#budgeyContainer:hover{
+   margin: 0 20% 0 20% !important;
+   background: #e8e8ea;
+}
+
+#budgey {
+  width: 15em;
+  background: transparent;
+}
+
+
+.Experience .Exp #tms {
+  font-family: slab, Arial, Helvetica, sans-serif;
+  color: #f66843;
+  font-size: 2.2em;
+  padding: 0.4em;
+  margin: 0;
+}
+
+p#tms {
+  transition: margin-left 0.2s ease-out, margin-right 0.2s ease-out;
+  border-radius: 1.5em;;
+}
+p#tms:hover {
+  background: #e8e8ea;
+  text-decoration: none;
+  margin: 0 20% 0 20% !important;
+}
+
 #booton {
-  background-color: darkgray;
+  /*background-color: darkgray;*/
   width: 12em;
-  color: white;
   height: 3em;
   letter-spacing: 0.3em;
   border: none;
   border-radius: 50%;
 }
-#booton:hover {
-  background-color: darkslategray;
-}
+
+
 .resume {
   text-align: center;
   background-color: darkgray;
@@ -176,6 +226,18 @@
 }
 #object {
   margin-bottom: 5em;
+}
+#resDownload {
+  font-size: 1.5em;
+}
+
+#button {
+  background: transparent !important;
+}
+
+#button:hover {
+  color: #ffbd0b;
+  background: transparent;
 }
 /*.Contact {
   height: 43em;
@@ -236,7 +298,7 @@
     display: none !important;
   }
   .Education {
-    height: 62em !important;
+    height: 66em !important;
   }
   .Education .Edu {
     margin-top: -1em !important;
@@ -247,6 +309,12 @@
   }
   .About h2 {
     font-size: 1.1em !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #object {
+    display: none;
   }
 }
 
@@ -262,3 +330,8 @@
     border-radius: 50%;
     background-color: black;
 }
+
+
+
+
+

@@ -1,16 +1,21 @@
 $(document).ready(function(){
-    
+
     var bounce = function(){
         $('#bounce-icon').effect('bounce', {times: 5}, 2000);
     }
 
     setTimeout(bounce, 700);
 
-    $('#bounce-icon').click(function() {
-        bounce();
-    });
+   var target = $('#target');
+   $(document).click(function() {
+        if (target.hasClass('in')) {
+             target.css('height', '1px');
+             target.removeClass('in');
+        } else {
+            console.log('closed');
+        }
+   });
   
-      
     $(window).scroll(function() {
         var scroll_top =$(this).scrollTop();
         var skillsTop = $('.Skills').offset().top;
@@ -33,7 +38,11 @@ $(document).ready(function(){
 	    }, 900, 'swing', function () {
 	        window.location.hash = target;
 	    });
+        $target.css('height','1px');
 	});
-    
    
+    $('#bounce-icon').click(function() {
+        bounce();
+    });
+
 });
