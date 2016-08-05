@@ -7,14 +7,14 @@ $(document).ready(function(){
     setTimeout(bounce, 700);
 
    var target = $('#target');
-   $(document).click(function() {
-        if (target.hasClass('in')) {
-             target.css('height', '1px');
-             target.removeClass('in');
-        } else {
-            return false;
-        }
-   });
+//    $(document).click(function() {
+//         if (target.hasClass('in')) {
+//              target.css('height', '1px');
+//              target.removeClass('in');
+//         } else {
+//             return false;
+//         }
+//    });
   
     $(window).scroll(function() {
         var scroll_top =$(this).scrollTop();
