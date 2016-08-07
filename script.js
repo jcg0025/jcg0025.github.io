@@ -48,7 +48,23 @@ $(document).ready(function(){
 	});
    
     $('#bounce-icon').click(function() {
-        bounce();
+        console.log('hello');
+         bounce();
     });
+
+    $('#budgeyLogo').on('mouseover', function() {
+        $('#budgeyContainer').addClass('active');
+    });
+
+     $('#budgeyLogo').on('mouseleave', function() {
+        $('#budgeyContainer').removeClass('active');
+    });
+    $('#tmsText').on('mouseover', function(){
+        $('#tms').addClass('active');
+    });
+       $('#tmsText').on('mouseleave', function(){
+        $('#tms').removeClass('active');
+    });
+
 
 });
